@@ -13,6 +13,8 @@ public class Main2 {
         // String text2 = input.nextLine();
         // String text3 = input.nextLine();
 
+        input.close();
+
         System.out.printf("text: " + text1 + " " + text2 + " " + text3);
         System.out.printf("text: " + text3 + " " + text2 + " " + text1);
     }
