@@ -28,8 +28,10 @@ public class Main {
         if (arr.length == 5) {
             String[] output = new String[6];
             for (int i = 0; i < arr.length; i++) {
-                if (i >= 2) {
+                if (i == 2) {
                     output[2] = str;
+                }
+                if (i >= 2) {
                     output[i + 1] = arr[i];
                 } else {
                     output[i] = arr[i];
